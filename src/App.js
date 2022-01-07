@@ -4,7 +4,7 @@ import './Styling/App.css'
 const App = () => {
   return (
     <div>
-      hi
+      
     </div>
   )
 }
