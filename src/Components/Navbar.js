@@ -8,8 +8,6 @@ const Navbar = () => {
   return (
     <div className="gpt3__navbar">
       <div className="gpt3__navbar-links">
-        {/* <div className="gpt3__navbar-links_logo">
-        </div> */}
         <div className="gpt3__navbar-links_container">
           <p><a href="/">TECH-AHEAD</a></p>
           <p><a href="#home">Home</a></p>
@@ -20,8 +18,7 @@ const Navbar = () => {
         </div>
       </div>
       <div className="gpt3__navbar-sign">
-        <p>Sign in</p>
-        <button type="button">Sign up</button>
+        <button type="button">Sign In</button>
       </div>
       <div className="gpt3__navbar-menu">
         {toggleMenu
@@ -37,8 +34,7 @@ const Navbar = () => {
             <p><a href="#blog">Library</a></p>
           </div>
           <div className="gpt3__navbar-menu_container-links-sign">
-            <p>Sign in</p>
-            <button type="button">Sign up</button>
+            <button type="button">Sign In</button>
           </div>
         </div>
         )}
