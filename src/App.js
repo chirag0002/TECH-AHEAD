@@ -1,7 +1,7 @@
 import React from 'react'
 import './Styling/App.css'
 import Navbar from './Components/Navbar'
-import Header from './Components/Header'
+import Header from './Components/Homepageheader'
 
 const App = () => {
   return (

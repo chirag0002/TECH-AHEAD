@@ -1,135 +1,100 @@
-.gpt3__header {
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
+.header{
+    width:100%;
+}
+.header_video{
+    width: 100vw;
+    height: 80vh;
+    object-fit: cover;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+.header_content{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    margin:2vh;
+    color:rgb(248, 239, 239);
 }
-
-.gpt3__header-content {
-    flex: 1;
+.navbar_items{
     display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-direction: column;
-
-    margin-right: 5rem;
+    flex-direction: row;
+    justify-items: space-between;
+    margin-top: 2vh;
 }
-
-.gpt3__header-content h1 {
-    font-family: var(--font-family);
+.navbar_point{
+    margin:0 3vh;
+    font-weight: 100;
+    color:rgb(233, 144, 72);
+}
+.log_sign{
+    margin-top:1.5vh;
+}
+.log_btn{
+    outline: 0;
+    background: transparent;
+    color:rgb(124, 166, 223);
+    border:.2vh solid rgb(88, 144, 207);
+    border-radius: 4vh;
+    padding:1vh 1.5vh;
+    margin:0 2vh;
+}
+.sign_btn{
+    outline: 0;
+    background: rgb(233, 144, 72);
+    color:white;
+    border:.2vh solid rgb(233, 144, 72);
+    border-radius: 3vh;
+    padding:1vh 5vh;
+    margin:0 2vh;
+}
+.header_sub_parts{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top:20vh;
+}
+.head_quote1{
+    font-weight: 900;
+    width:65%;
+    color:azure;
+    text-align: left;
+    margin:3vh;
+    margin-bottom: 5;
+    line-height: 7vh;
+}
+.head_quote1 span{
+    color:rgb(233, 144, 72);
+    font-weight: 1100;
+    font-size: larger;
+}
+.head_quote2{
+    font-weight: 400;
+    width:70%;
+    color:azure;
+    text-align: left;
+    margin-left:3vh;
+    display: flex;
+}
+.head_quote2 h4{
+    margin-top:.7vh;
+}
+.head_quote2 span{
+    color:rgb(233, 144, 72);
     font-weight: 800;
-    font-size: 62px;
-    line-height: 75px;
-    letter-spacing: -0.04em;
+    font-size: larger;
 }
-
-.gpt3__header-content p {
-    font-family: var(--font-family);
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 28px;
-    color: var(--color-text);
-    margin-top: 1.5rem;
+.head_image{
+    margin-top:35vh;
 }
-
-
-.gpt3__header-content__input {
-    width: 100%;
-    margin: 2rem 0 1rem;
-
-    display: flex;
-    flex-direction: row;
-}
-
-.gpt3__header-content__input input {
-    flex: 2;
-    width: 100%;
-    min-height: 50px;
-    font-family: var(--font-family);
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 28px;
-    background: var(--color-footer);
-    border: 2px solid var(--color-footer);
-    padding: 0 1rem;
-    outline: none;
-    color: #fff;
-
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
-}
-
-.gpt3__header-content__input button {
-    flex: 0.6;
-    width: 100%;
-    min-height: 50px;
-    font-family: var(--font-family);
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 28px;
-    background: #FF4820;
-    border: 2px solid #FF4820;
-    padding: 0 1rem;
-    color: #fff;
-    cursor: pointer;
-    outline: none;
-
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-}
-
-.gpt3__header-image {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.gpt3__header-image img {
-    width: 100%;
-    height: 100%;
-}
-
-@media screen and (max-width: 1050px) {
-    .gpt3__header {
-        flex-direction: column;
-    }
-
-    .gpt3__header-content {
-        margin: 0 0 3rem;
-    }
-}
-
-@media screen and (max-width: 650px) {
-    .gpt3__header-content h1 {
-        font-size: 48px;
-        line-height: 60px;
-    }
-
-    .gpt3__header-content p {
-        font-size: 16px;
-        line-height: 24px;
-    }
-
-    .gpt3__header-content__input input,
-    .gpt3__header-content__input button {
-        font-size: 16px;
-        line-height: 24px;
-    }
-}
-
-@media screen and (max-width: 490px) {
-    .gpt3__header-content h1 {
-        font-size: 36px;
-        line-height: 48px;
-    }
-
-    .gpt3__header-content p {
-        font-size: 14px;
-        line-height: 24px;
-    }
-
-    .gpt3__header-content__input input,
-    .gpt3__header-content__input button {
-        font-size: 12px;
-        line-height: 16px;
-    }
+.headImage{
+    width:50%;
+    height:100%;
+    border:.6vh solid rgb(233, 144, 72);
+    border-radius:10vh;
+    box-shadow: 7vh 7vh 10vh;
 }

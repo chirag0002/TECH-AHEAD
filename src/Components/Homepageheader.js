@@ -1,9 +1,9 @@
 import React,{useState} from 'react';
 import HPopup from './HPopup'
 import ai from '../Images/giphy.gif';
-import '../Styling/Header.css';
+import '../Styling/Homepageheader.css';
 
-const Header = () =>{ 
+const Homepageheader = () =>{ 
     const[popup,setPopup]=useState(false);
     return(
   <div className="gpt3__header section__padding" id="home">
@@ -32,4 +32,4 @@ const Header = () =>{
 );
 }
 
-export default Header;
+export default Homepageheader;
