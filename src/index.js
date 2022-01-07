@@ -1,12 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { Router, Outlet } from 'react-location';
+
 import './index.css';
-import App from './App';
 
+// eslint-disable-next-line import/named
+import { routes, location } from './router';
 
-ReactDOM.render(
-  
-    <App />
-  ,
-  document.getElementById('root')
-);
+ReactDOM.render(<Router routes={routes} location={location}> <Outlet /></Router>, document.getElementById('root'));
