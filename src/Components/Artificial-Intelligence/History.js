@@ -30,19 +30,20 @@ const History = () => {
         </div>
         </div>
         <div className="year_starts">
-        <h1 className="history_year">hello</h1>
-       <h1 className="history_year">hello</h1>
-       <h1 className="history_year">hello</h1>
+        <h4 className="history_year_1">1950s–1970s</h4>
+       <h4 className="history_year_2">1980s–2010s</h4>
+       <h4 className="history_year_3">Present Day</h4>
         </div>
+       
           <div className="history_links">
-        <h3 className="history_name">Neural Networks</h3>
-       <h3 className="history_name">Neural Networks</h3>
-        <h3 className="history_name">Neural Networks</h3>
+        <h5 className="history_name_1">Neural Networks</h5>
+       <h5 className="history_name_2">Machine Learning</h5>
+        <h5 className="history_name_3">Deep Learning</h5>
         </div>
             <div className="history_para">
-        <p  className="history_paras">Early work with neural networks stirs excitement for “thinking machines.”</p>
-        <p  className="history_paras">Early work with neural networks stirs excitement for “thinking machines.”</p>
-           <p  className="history_paras">Early work with neural networks stirs excitement for “thinking machines.”</p>
+        <p  className="history_paras_1">Early work with neural networks stirs excitement for “thinking machines.”</p>
+        <p  className="history_paras_2">Machine learning becomes popular.</p>
+           <p  className="history_paras_3">Deep learning breakthroughs drive AI boom.</p>
         </div>
         </div>
     )
