@@ -244,6 +244,7 @@ main#carousel {
     display: flex;
     justify-content: center;
     margin:2vh;
+    margin-top:30vh;
     font-size: 6vh;
   }
   .s5{

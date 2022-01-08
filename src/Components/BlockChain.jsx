@@ -17,6 +17,7 @@ import Republic from '../Images/Republic.png';
 import Blocksteps from '../Images/Blocksteps.png';
 import Blogs from './BlockBlog';
 import Footer from './Footer';
+import Projects from './BlockProjects';
 
 
 const BlockChain = () => (
@@ -139,6 +140,7 @@ const BlockChain = () => (
         <img src={Blocksteps} alt="" className="s4_blocksteps" />
     </section>
     <Blogs />
+    <Projects />
     <section className="s5">
       <h1 className="gradient__text">Top Companies In Blockchain</h1>
       <div className="s5-1">
