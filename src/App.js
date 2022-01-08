@@ -2,6 +2,9 @@ import React from 'react'
 import './Styling/App.css'
 import Navbar from './Components/Navbar'
 import Header from './Components/Homepageheader'
+import Brand from './Components/Brand'
+import Features from './Components/Features'
+import Techs from './Components/Techs'
 
 const App = () => {
   return (
@@ -10,10 +13,10 @@ const App = () => {
       <Navbar />
       <Header />
     </div>
-    {/* <Brand />
-    <WhatGPT3 />
+    <Brand />
+    <Techs />
     <Features />
-    <Possibility />
+    {/* <Possibility />
     <CTA />
     <Blog />
     <Footer /> */}
