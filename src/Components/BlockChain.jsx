@@ -39,7 +39,6 @@ const BlockChain = () => (
             <p>One key difference between a typical database and a blockchain is how the data is structured. A blockchain collects information together in groups, known as blocks, that hold sets of information. Blocks have certain storage capacities and, when filled, are closed and linked to the previously filled block, forming a chain of data known as the blockchain. All new information that follows that freshly added block is compiled into a newly formed block that will then also be added to the chain once filled.
             </p>
           </div>
-          <input onclick="this.value='Close Curtain'" type="button" value="Open Curtain" id="myButton1" />
           <div className="BlockC_gif">
             <img className="blockGif" src={Blockgif} alt="" />
           </div>
