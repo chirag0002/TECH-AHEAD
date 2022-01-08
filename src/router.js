@@ -5,13 +5,17 @@ import Blockchain from './Components/BlockChain';
 
 import Navbar from './Components/Navbar';
 // import Footer from './containers/footer/Footer';
-// import Ai from './components/Technologies/Ai';
+import Ai from './Components/Artificial-Intelligence/Ai';
 // import BlockChain from './components/Technologies/BlockChain';
 
 export const routes: Route[] = [
   {
     path: '/',
     element: <App />,
+  },
+  {
+    path:'ai',
+    element:<Ai />,
   },
   {
     path: '/blockchain',
