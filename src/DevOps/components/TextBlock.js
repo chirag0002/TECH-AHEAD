@@ -16,7 +16,6 @@ const Lb = styled.div`
     align-items: center;
     text-align: center;
   }
-  /* z-index: 1; */
 `;
 const Topic = styled.span`
   display: flex;

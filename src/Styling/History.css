@@ -48,9 +48,6 @@
    
 }
 .history_paras_2{
-    /* margin-left:14.5%;
-    width:40%;
-    height:10vh; */
     font-size: 1rem;
     font-weight: 400;
     color:white;
@@ -94,14 +91,11 @@
     width:150%;
 }
 .history_year_2{
-    /* margin-right: 30%; */
-   margin-left: -35%;
-    /* margin-left: 5%; */
+    margin-left: -35%;    
     color: #042c54;
     width:150%;
 }
 .history_year_3{
-    /* margin-left: 5%; */
     color: #042c54;
     width:70%;
     margin-left: -37%;
@@ -157,9 +151,6 @@
          
       }
       .history_paras_2{
-          /* margin-left:14.5%;
-          width:40%;
-          height:10vh; */
           font-size: 1rem;
           font-weight: 400;
           color:white;
@@ -181,7 +172,6 @@
       }
       .history_name_1{
           color: #81AFDD;
-          /* margin-left: -2.5%; */
           margin-left: -3%;
           width: 90%;
       }
@@ -207,14 +197,11 @@
           width:150%;
       }
       .history_year_2{
-          /* margin-right: 30%; */
          margin-left: -28%;
-          /* margin-left: 5%; */
           color: #042c54;
           width:150%;
       }
       .history_year_3{
-          /* margin-left: 5%; */
           color: #042c54;
           width:70%;
          margin-left: -20%;

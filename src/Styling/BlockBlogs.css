@@ -17,7 +17,11 @@
     display:flex;
     margin-top:60px;
     margin-bottom: -50px;
-    justify-content: center;
+}
+
+.blockblog{
+    display: flex;
+    justify-content:center;
 }
 
 .gpt3__blog-container {
