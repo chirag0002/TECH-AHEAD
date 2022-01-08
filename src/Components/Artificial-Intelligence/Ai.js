@@ -30,7 +30,7 @@ const Ai = () => {
         </div> */}
 
         <div className="AI">
-          <h1 className="gradient__text ai_heading">INTRODUCTION TO ARTIFICIAL INTELLIGENCE</h1>
+          <h1 id="Rendering" className="gradient__text ai_heading">INTRODUCTION TO ARTIFICIAL INTELLIGENCE</h1>
         <div className="ai_card_">
           <div>
         <img className="ai_giphy_2" src={AI} alt="" />
