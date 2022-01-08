@@ -5,6 +5,7 @@ import DevOps from './Components/DevOps/DevOps'
 import Blockchain from './Components/BlockChain';
 import Ai from './Components/Artificial-Intelligence/Ai';
 import About from './Components/About'
+import Project from './Components/BlockProjects'
 
 
 export const routes: Route[] = [
@@ -27,6 +28,10 @@ export const routes: Route[] = [
    {
     path: 'about',
     element: <About />,
+  },
+  {
+    path: 'project',
+    element: <Project />,
   },
 ];
 export const location = new ReactLocation();
