@@ -25,11 +25,11 @@ Most AI examples that you hear about today – from chess-playing computers to s
 Using these technologies, computers can be trained to accomplish specific tasks by processing large amounts of data and recognizing patterns in the data.
 </p>
             </div>
-          <img src={Tech} alt="" />
+          <img className="tech" src={Tech} alt="" />
             </div>
             <div className="tech_checking">
            
-          <img src={Machine} alt="" />
+          <img className="machine" src={Machine} alt="" />
            
               <div className="main_technologies_card_2">
             <div className="circle">2</div>
@@ -54,10 +54,10 @@ Deep learning is a type of machine learning that trains a computer to perform hu
 Instead of organizing data to run through predefined equations, deep learning sets up basic parameters about the data and trains the computer to learn on its own by recognizing patterns using many layers of processing.
 </p>
             </div>
-                <img src={Tech} alt="" />
+                <img className="tech" src={Tech} alt="" />
             </div>
 <div className="tech_checking">
-    <img src={NLP} alt="" />
+    <img className="nlp" src={NLP} alt="" />
             
               <div className="main_technologies_card_4">
             <div className="circle">4</div>
@@ -83,7 +83,7 @@ NLP helps computers communicate with humans in their own language, making it pos
 From recognizing faces to processing the live action of a football game, computer vision rivals and surpasses human visual abilities in many areas.
 </p>
             </div>
-                <img src={vision} alt="" />
+                <img className="vision" src={vision} alt="" />
             </div>
         </div>
     )
