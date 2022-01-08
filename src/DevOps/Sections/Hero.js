@@ -17,7 +17,7 @@ const move = keyframes`
 const HomeSection = styled.section`
   width: 100vw;
   height: 45vw;
-  background-color: #0a0b10;
+  background: var(--color-bg);
   display: flex;
   justify-content: center;
   position: relative;

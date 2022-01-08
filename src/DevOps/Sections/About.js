@@ -1,5 +1,4 @@
 import styled, { keyframes } from "styled-components";
-import wave from "../Images/waves.svg";
 import Git from "../Images/Git.png";
 import human from "../Images/human.svg";
 import hand from "../Images/hand.svg";
@@ -13,17 +12,14 @@ const move = keyframes`
 const AboutSection = styled.section`
   width: 100vw;
   position: relative;
+  background: var(--color-bg);
+  color:white;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 `;
-const Waves = styled.img`
-  width: 100%;
-  height: auto;
-  position: absolute;
-  top: -1rem;
-`;
+
 const Hand = styled.div`
   position: absolute;
   bottom: -1rem;
@@ -97,8 +93,8 @@ const Human = styled.div`
 `;
 const Text = styled.h4`
   font-size: calc(0.5rem + 1vw);
+  color:white;
   line-height: 1.5;
-  color: var(--nav2);
 `;
 const Circle = styled.span`
   display: inline-block;
@@ -120,7 +116,6 @@ const AboutText = styled.div`
 const About = () => {
   return (
     <AboutSection id="about">
-      <Waves src={wave} alt="" />
       <Hand>
         <img src={hand} alt="" />
       </Hand>
@@ -144,7 +139,7 @@ const About = () => {
               <br />
               GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
 
-This tutorial teaches you GitHub essentials like repositories, branches, commits, and pull requests. You'll create your own Hello World repository and learn GitHub's pull request workflow, a popular way to create and review code.
+                This tutorial teaches you GitHub essentials like repositories, branches, commits, and pull requests. You'll create your own Hello World repository and learn GitHub's pull request workflow, a popular way to create and review code.
             </Text>
             <div>
               <Circle style={{ backgroundColor: "var(--purple)" }} />

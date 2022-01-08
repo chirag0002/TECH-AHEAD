@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+.container_body{
+    height: 821px;
+    background: var(--color-bg);
+}
+
+.container1{
+    position: absolute;
+    font-family: 'Acme', sans-serif;
+}
+
+
+.login_header{
+    color:white;
+    position: absolute;
+    font-size:5rem;
+    margin-left: 90%;
+    margin-top: 100%;
+}
+
+@media all and (min-width: 480px) {
+    .Login {
+      padding: 60px 0;
+      height:400px;
+      color: white;
+    }
+  
+    .Login form {
+      margin: 0 auto;
+      max-width: 320px;
+    }
+  }
+
+.input_1{
+    /* position: absolute; */
+    /* margin-top:17%; */
+    height:38px;
+    width: 250px;
+    background-color: gray;
+    border-radius:7px;
+    font-family: 'Varela Round', sans-serif;
+    border-color: white;
+    border-style: solid;
+    outline: none;
+    margin-left: 1%;
+}
+.input_2{    
+    /* margin-top:24%; */
+    /* position: absolute; */
+    outline:none;
+    height:38px;
+    width: 250px;
+    background-color: gray;
+    border-radius:7px;
+    font-family: 'Varela Round', sans-serif;
+    border-color: white;
+    border-style: solid;
+    margin-left: 1%;
+}
+
+.username{
+    /* position: absolute; */
+    font-size:1.3rem;
+    font-family: 'Dancing Script', cursive;
+    margin-left: 1%;
+    margin-top: 15%;
+}
+
+.pass{
+    /* position: absolute; */
+    margin-top: 5%;
+    font-size:1.3rem;
+    font-family: 'Dancing Script', cursive;
+    margin-left: 1%;
+}
+
+.login_btn{
+    height:45px;
+    width: 100px;
+    background:red;
+    color: white;
+    border-radius:5px;
+    border-style:2px solid;
+    border-width: 3px;
+    margin-top: 15px;
+    border-color:white;
+    /* font-size:1.5rem; */
+    font-family: 'Varela Round', sans-serif;
+    margin-left: 25%;
+}
+
+.login_btn:hover{
+    background:white;
+    color: red;
+    border-style:solid;
+    border-color:red
+}
+
+.twitter{
+    height:50px;
+    background: #60b5f0;
+    color: white;
+    font-size: 1.3rem;
+    font-family: 'Varela Round', sans-serif;
+    padding-left:50px;
+    border-style: solid;
+    border-color:white;
+    border-width: 3px;
+    position: absolute;
+    margin-left: 30%;
+    margin-top:5%;
+}
+
+.github{
+    height:50px;
+    background: gray;
+    color: white;
+    font-size: 1.3rem;
+    border-width: 3px;
+    font-family: 'Varela Round', sans-serif;
+    padding-left:50px;
+    border-style: solid;
+    border-color:white;
+    position: absolute;
+    margin-left: 50%;
+    margin-top:5%;
+}
+
+.facebook{
+    height:50px;
+    background: #4464a2;
+    color: white;
+    font-size: 1.3rem;
+    font-family: 'Varela Round', sans-serif;
+    padding-left:50px;
+    border-width: 3px;
+    border-style: solid;
+    border-color:white;
+    position: absolute;
+    margin-left: 70%;
+    margin-top:5%;
+}
+.google{
+    height:50px;
+    background: #4285F4;
+    color: white;
+    font-size: 1.3rem;
+    font-family: 'Varela Round', sans-serif;
+    padding-left:50px;
+    border-width: 3px;
+    border-style: solid;
+    border-color:white;
+    position: absolute;
+    margin-left: 10%;
+    margin-top:5%;
+}
+
+.logos{
+    width:25px;
+    position: absolute;
+    margin-left: -17%;
+}
+
+.twitter:hover{
+    background: white;
+    color: #60b5f0;
+    border-style: solid;
+    border-color:#60b5f0;
+}
+
+.facebook:hover{
+    background: white;
+    color: #4464a2;
+    border-style: solid;
+    border-color:#4464a2;
+}
+.github:hover{
+    background: white;
+    color: gray;
+    border-style: solid;
+    border-color:gray;
+}
+.google:hover{
+    background: white;
+    color: #4285F4;
+    border-style: solid;
+    border-color:#4285F4;
+}
+
+video {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+
+  @media only screen and (max-width:1250px){
+    .google{
+        margin-left: 18%;
+        width:15%;
+        font-size: 70%;
+    }
+
+    .twitter{
+        margin-left: 34%;
+        width:16%;
+        font-size:80%;
+    }
+
+    .github{
+        margin-left: 51%;
+        width:16%;
+        font-size:80%;
+    }
+
+    .facebook{
+        margin-left: 68%;
+        width:16%;
+        font-size:70%;
+    }
+
+    .logos{
+        width: 20px;
+        margin-left: -20%;
+    }
+  }
