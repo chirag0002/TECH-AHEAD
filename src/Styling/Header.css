@@ -101,6 +101,21 @@
     border-radius:10vh;
     box-shadow: 7vh 7vh 10vh;
 }
+
+
+@media (max-width : 1300px){
+    .head_quote1 h1{
+        font-size:5vh ;
+    }
+    .head_quote2 h4{
+        font-size: 3.2vh;
+    }
+    
+}
+
+
+
+
 @media (max-width : 990px){
     .head_quote1 h1{
         font-size: 4.5vh;
@@ -171,7 +186,7 @@
         padding:.5vh;
     }
 }
-@media(max-width:600px){
+@media(max-width:650px){
     .log_sign{
         display:flex;
         flex-direction: column;
