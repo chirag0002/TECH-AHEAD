@@ -43,22 +43,18 @@ const BlockChain = () => (
             <img className="blockGif" src={Blockgif} alt="" />
           </div>
         </div>
-        <p>A database usually structures its data into tables, whereas a blockchain, like its name implies, structures its data into chunks (blocks) that are strung together. This data structure inherently makes an irreversible time line of data when implemented in a decentralized nature. When a block is filled, it is set in stone and becomes a part of this time line. Each block in the chain is given an exact time stamp when it is added to the chain.
+        <div className="Block_last_p_div">
+        <p className="Block_last_p">A database usually structures its data into tables, whereas a blockchain, like its name implies, structures its data into chunks (blocks) that are strung together. This data structure inherently makes an irreversible time line of data when implemented in a decentralized nature. When a block is filled, it is set in stone and becomes a part of this time line. Each block in the chain is given an exact time stamp when it is added to the chain.
         </p>
+        </div>
       </div>
     </section>
-    <section style={{ width: '90%',
+    <section style={{ width: '80%',
       margin: '0 auto',
     }}
     >
-      <h1
-        className="gradient__text"
-        style={{ display: 'flex',
-          justifyContent: 'center',
-          margin: '2vh',
-          fontSize: '6vh',
-        }}
-      >Top 5 Blockchains
+      <h1 className="gradient__text s2-heading">
+          Top 5 Blockchains
       </h1>
       <div className="s2">
         <div className="s2-1">
@@ -75,11 +71,7 @@ const BlockChain = () => (
           <img
             className="HL"
             src={HyperLedger}
-            alt=""
-            style={{ height: '22vh',
-              marginTop: '3vh',
-            }}
-          />
+            alt=""/>
           <div className="s2-1-text">
             <p>Hyperledger is a global enterprise blockchain project that offers the necessary framework, standards, guidelines, and tools to build open-source blockchains and related applications for use across various industries.
             </p>
@@ -142,7 +134,7 @@ const BlockChain = () => (
     <Blogs />
     <Projects />
     <section className="s5">
-      <h1 className="gradient__text">Top Companies In Blockchain</h1>
+      <h1 className="gradient__text s5-heading">Top Companies In Blockchain</h1>
       <div className="s5-1">
         <input type="radio" name="position" />
         <input type="radio" name="position" />

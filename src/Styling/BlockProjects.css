@@ -83,5 +83,44 @@
     width: 70%;
     transition: 0.4s ease-out;
   }
+  .project_main_heading{
+    display:flex;
+    justify-content:center;
+    font-size:6vh;
+  }
   
- 
+ @media(max-width:1245px){
+     .project_explain p{
+        font-size:2vh;
+     }
+ }
+
+
+ @media(max-width:850px){
+    .project_explain p{
+       font-size:1.7vh;
+    }
+    .project_main_heading{
+        font-size:5vh;
+        text-align: center;
+    }
+    .project_card h4{
+        font-size: 3vh;
+    }
+    .s5 h1{
+        font-size:4.5vh;
+    }
+}
+@media(max-width:515px){
+    .project_explain p{
+       font-size:1.4vh;
+    }
+    .project_main_heading{
+        font-size:4vh;
+        text-align: center;
+    }
+    .s5 h1{
+        font-size:4vh;
+        text-align: center;
+    }
+}
