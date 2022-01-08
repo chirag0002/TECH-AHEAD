@@ -27,11 +27,11 @@
     font-size: 20px;
     line-height: 28px;
     color: var(--color-text);
-
     margin-top: 1.5rem;
 }
 
-.gpt3_header-content_input {
+
+.gpt3__header-content__input {
     width: 100%;
     margin: 2rem 0 1rem;
 
@@ -39,7 +39,7 @@
     flex-direction: row;
 }
 
-.gpt3_header-content_input input {
+.gpt3__header-content__input input {
     flex: 2;
     width: 100%;
     min-height: 50px;
@@ -57,7 +57,7 @@
     border-bottom-left-radius: 5px;
 }
 
-.gpt3_header-content_input button {
+.gpt3__header-content__input button {
     flex: 0.6;
     width: 100%;
     min-height: 50px;
@@ -74,31 +74,6 @@
 
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
-}
-
-.gpt3_header-content_people {
-    width: 100%;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    flex-direction: row;
-
-    margin-top: 2rem;
-}
-
-.gpt3_header-content_people img {
-    width: 181.79px;
-    height: 38px;
-}
-
-.gpt3_header-content_people p {
-    margin: 0 0 0 1rem;
-    font-family: var(--font-family);
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 38px;
-    color: #fff;
-    text-align: center;
 }
 
 .gpt3__header-image {
@@ -133,17 +108,9 @@
         font-size: 16px;
         line-height: 24px;
     }
-    
-    .gpt3_header-content_people {
-        flex-direction: column;
-    }
 
-    .gpt3_header-content_people p {
-        margin: 0;
-    }
-
-    .gpt3_header-content_input input,
-    .gpt3_header-content_input button {
+    .gpt3__header-content__input input,
+    .gpt3__header-content__input button {
         font-size: 16px;
         line-height: 24px;
     }
@@ -160,8 +127,8 @@
         line-height: 24px;
     }
 
-    .gpt3_header-content_input input,
-    .gpt3_header-content_input button {
+    .gpt3__header-content__input input,
+    .gpt3__header-content__input button {
         font-size: 12px;
         line-height: 16px;
     }
