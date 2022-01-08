@@ -13,22 +13,21 @@ const Footer = () => (
       </div>
       <div className="gpt3__footer-links_div">
         <h4>Links</h4>
-        <p>Overons</p>
-        <p>Social Media</p>
-        <p>Counters</p>
-        <p>Contact</p>
+        <a href="/about"><p>About</p></a>
+        <p><a href="https://github.com/SuperAayush/TECH-AHEAD" target="_blank" rel="noreferrer"> Contribute </a></p>
+        <p></p>
       </div>
       <div className="gpt3__footer-links_div">
-        <h4>Company</h4>
-        <p>Terms & Conditions </p>
-        <p>Privacy Policy</p>
-        <p>Contact</p>
+        <h4>Content</h4>
+        <p><a href="https://discover-blogs.netlify.app/" target="_blank" rel="noreferrer"> Blogs </a></p>
+        <p><a href="https://www.udemy.com/home/my-courses/learning/" target="_blank" rel="noreferrer"> Learning Platform </a></p>
+         <p><a href="https://discord.gg/E8D5STT8" target="_blank" rel="noreferrer"> Discord </a></p>
       </div>
       <div className="gpt3__footer-links_div">
         <h4>Get in touch</h4>
-        <p>Crechterwoord K12 182 DK Alknjkcb</p>
-        <p>085-132567</p>
-        <p>info@payme.net</p>
+        <p><a href="mailto:aayusharma1401@gmail.com">Aayush Sharma</a></p>
+        <p><a href="mailto:bhavya.sachdeva.58@gmail.com">Bhavya Sachdeva</a></p>
+        <p><a href="mailto:varshneychirag34@gmail.com">Chirag Varshney</a></p>
       </div>
     </div>
 

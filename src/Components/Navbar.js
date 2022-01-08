@@ -12,9 +12,9 @@ const Navbar = () => {
           <p><a href="/">TECH-AHEAD</a></p>
           <p><a href="#home">Home</a></p>
           <p><a href="#wgpt3">Techs</a></p>
-          <p><a href="#possibility">Open AI</a></p>
+          <p><a href="#possibility">Roadmaps</a></p>
           <p><a href="#features">Case Studies</a></p>
-          <p><a href="#blog">Library</a></p>
+          <p><a href="#blog">Blogs</a></p>
         </div>
       </div>
       <div className="gpt3__navbar-sign">

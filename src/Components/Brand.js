@@ -9,17 +9,17 @@ import '../Styling/Brand.css';
 const Brand = () => (
   <div className="gpt3__brand section__padding">
     <div>
-    <a href="https://www.civo.com/">
+    <a href="https://www.civo.com/" target="_blank" rel="noreferrer">
       <img className="civo__logo" src={Civo} alt=" "/>
       </a>
     </div>
     <div>
-    <a href="https://github.com/">
+    <a href="https://github.com/" target="_blank" rel="noreferrer">
       <img src={Github} className="github__logo" alt=" " />
       </a>
     </div>
     <div>
-    <a href="https://kubernetes.io/">
+    <a href="https://kubernetes.io/" target="_blank" rel="noreferrer">
       <img src={Kubernetes} className="kub__logo" alt=" " />
       </a>
     </div>
@@ -29,7 +29,7 @@ const Brand = () => (
       </a>
     </div>
     <div>
-    <a href="https://www.docker.com/">
+    <a href="https://www.docker.com/" target="_blank" rel="noreferrer">
       <img src={Docker} className="docker__logo" alt=" " />
       </a>
     </div>
