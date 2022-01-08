@@ -11,9 +11,9 @@ const Header = () => (
       </video>
       <div className="header_content">
         <div className="header_content_heading">
-        <a href="/"><h1>TECH-AHEAD</h1></a>
+        <a href="/"><h1 className="gradient__text">TECH-AHEAD</h1></a>
       </div>
-        <navbar className="navbar_items">
+        <navbar className="navbar_items gradient__text">
           <a href="/blockchain"> <h4 className="navbar_point">FIRST</h4></a>
           <a href="/ai"><h4 className="navbar_point">SECOND</h4></a>
           <a href="/devops"><h4 className="navbar_point">THIRD</h4></a>
@@ -26,10 +26,10 @@ const Header = () => (
       <div className="header_sub_parts">
         <div className="head_quote">
           <div className="head_quote1">
-            <h1>You never change things by fighting the existing reality. To change something, build a new <span>TECHNOLOGY</span> that makes theexisting model obsolete.</h1>
+            <h1>You never change things by fighting the existing reality. To change something, build a new <span className="gradient__text">TECHNOLOGY</span> that makes the existing model obsolete.</h1>
           </div>
           <div className="head_quote2">
-            <h4>Technology is best when it brings people <span>TOGETHER</span>.</h4>
+            <h4>Technology is best when it brings people <span className="gradient__text">TOGETHER</span>.</h4>
           </div>
         </div>
         <div className="head_image">

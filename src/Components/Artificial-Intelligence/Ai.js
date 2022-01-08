@@ -1,17 +1,23 @@
 import React from 'react';
 import '../../Styling/Ai.css';
-import Giphy from '../../Images/giphy.gif';
+
 import AI from '../../Images/ai.gif';
-// import Quotes from '../../Images/Quotes.jpg';
-import Header from '../Header';
+
 import History from './History';
+import Technology from './Technologies';
+import Blogs from './Blogs'
+import Videos from './Videos';
+import Uses from './Uses';
+import Project from './Projects';
+import Footer from '../Footer';
+import Company from './Companies';
 
 const Ai = () => {
     return (
         <div className="main_ai">
-        <Header />
+      
         <div className="ai_part_1">
-        <img className="ai_giphy" src={Giphy} alt=""  />
+        {/* <img className="ai_giphy" src={Giphy} alt=""  /> */}
         </div>
   
               {/* <h2 className="gradient__text ai_quote_heading">
@@ -23,7 +29,7 @@ const Ai = () => {
         </div> */}
 
         <div className="AI">
-          <h1 className="gradient__text ai_heading">INTRODUCTION TO ARTIFICIAL INTELLIGENCE</h1>
+          <h1 id="Rendering" className="gradient__text ai_heading">INTRODUCTION TO ARTIFICIAL INTELLIGENCE</h1>
         <div className="ai_card_">
           <div>
         <img className="ai_giphy_2" src={AI} alt="" />
@@ -60,6 +66,18 @@ const Ai = () => {
         </div>
      </div>
      <History />
+     <Technology />
+     <Uses />
+     <Project />
+     
+     <Company />
+     <Videos />
+     <Blogs />
+     <Footer />
+     
+
+  
+
      </div>
     )
 };
