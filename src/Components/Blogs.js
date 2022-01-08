@@ -20,7 +20,7 @@ const Blogs = () => (
         <a href="https://www.getsmarter.com/blog/market-trends/the-future-of-blockchain-technology-in-2022/" target="_blank" rel="noreferrer"><Article imgUrl={blog02} date="Jan 7, 2022" text="The Future of Blockchain in Business" link="Click to Read Full Article" /></a>
         <a href="https://blog.qasource.com/devops-trends-to-look-out-for-in-2022" target="_blank" rel="noreferrer"><Article imgUrl={blog03} date="Nov 23, 2021" text="DevOps Trends To Look Out for in 2022" link="Click to Read Full Article" /></a>
         <a href="https://medium.muz.li/2022-the-year-of-the-metaverse-9979ee1ab403" target="_blank" rel="noreferrer"><Article imgUrl={blog04} date="Jan 2, 2022" text="2022: The Year of the Metaverse" link="Click to Read Full Article" /></a>
-        <a href="https://economictimes.indiatimes.com/tech/technology/top-tech-trends-to-watch-out-for-in-2022/articleshow/88477054.cms" target="_blank" rel="noreferrer"><Article imgUrl={blog05} date="Sep 26, 2021" text="Top tech trends to watch out for in 2022" link="Click to Read Full Article" /></a>
+        <a href="https://economictimes.indiatimes.com/tech/technology/top-tech-trends-to-watch-out-for-in-2022/articleshow/88477054.cms" target="_blank" rel="noreferrer"><Article imgUrl={blog05} date="Dec 24, 2021" text="Top tech trends to watch out for in 2022" link="Click to Read Full Article" /></a>
       </div>
     </div>
   </div>

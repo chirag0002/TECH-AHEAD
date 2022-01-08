@@ -3,13 +3,13 @@ import '../../Styling/Ai.css';
 import Giphy from '../../Images/giphy.gif';
 import AI from '../../Images/ai.gif';
 // import Quotes from '../../Images/Quotes.jpg';
-// import Header from '../Header';
+import Header from '../Header';
 import History from './History';
 
 const Ai = () => {
     return (
         <div className="main_ai">
-        {/* <Header /> */}
+        <Header />
         <div className="ai_part_1">
         <img className="ai_giphy" src={Giphy} alt=""  />
         </div>
