@@ -10,7 +10,7 @@ import BBlog5 from '../Images/BBlog5.jpg'
 
 const Blogs = () => (
   <div className="gpt3__blog section__padding" id="blog">
-    <div className="gpt3__blog-heading">
+    <div className="gpt3__blog-heading blockblog">
       <h1 className="gradient__text">Top Blogs Posts</h1>
     </div>
     <div className="gpt3__blog-container">

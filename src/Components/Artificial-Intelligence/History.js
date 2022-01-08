@@ -1,5 +1,4 @@
 import React from 'react'
-// import ai_History from '../../Images/History.jpeg';
 import '../../Styling/History.css';
 import Neural from "../../Images/neural.png";
 import Machine from "../../Images/machine-learning.png";
@@ -24,8 +23,6 @@ const History = () => {
     
 </div>
 </div>
-    {/* <img className="history_ai_pic" src={ai_History} alt="" /> */}
-      
         </div>
         </div>
         </div>

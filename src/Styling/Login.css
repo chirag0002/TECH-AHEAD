@@ -48,8 +48,6 @@
     margin-left: 1%;
 }
 .input_2{    
-    /* margin-top:24%; */
-    /* position: absolute; */
     outline:none;
     height:38px;
     width: 250px;
@@ -62,7 +60,6 @@
 }
 
 .username{
-    /* position: absolute; */
     font-size:1.3rem;
     font-family: 'Dancing Script', cursive;
     margin-left: 1%;
@@ -70,7 +67,6 @@
 }
 
 .pass{
-    /* position: absolute; */
     margin-top: 5%;
     font-size:1.3rem;
     font-family: 'Dancing Script', cursive;
@@ -87,7 +83,6 @@
     border-width: 3px;
     margin-top: 15px;
     border-color:white;
-    /* font-size:1.5rem; */
     font-family: 'Varela Round', sans-serif;
     margin-left: 25%;
 }

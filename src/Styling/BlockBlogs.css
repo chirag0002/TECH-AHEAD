@@ -19,6 +19,11 @@
     margin-bottom: -50px;
 }
 
+.blockblog{
+    display: flex;
+    justify-content:center;
+}
+
 .gpt3__blog-container {
     display: flex;
     flex-direction: row;

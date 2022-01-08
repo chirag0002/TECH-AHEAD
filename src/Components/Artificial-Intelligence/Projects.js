@@ -21,9 +21,8 @@ const Projects = () => {
                     
                           <div  className="about_project_card1_">
                             <h3 className="gradient__text project_heading">  Predict Housing Price </h3>
-                           <p class="project_content_para">
-                     
-Just getting into our first Artificial Intelligence Project Ideas. In this project, you will have to predict the selling price of a new home in Boston. The dataset of this project contains the prices of houses in different areas of the city. You can get the datasets for this project at the UCI Machine Learning Repository.
+                           <p class="project_content_para">                     
+                            Just getting into our first Artificial Intelligence Project Ideas. In this project, you will have to predict the selling price of a new home in Boston. The dataset of this project contains the prices of houses in different areas of the city. You can get the datasets for this project at the UCI Machine Learning Repository.
                            </p>
                            </div>
                            </div>

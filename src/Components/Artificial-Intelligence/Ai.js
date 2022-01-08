@@ -16,17 +16,7 @@ const Ai = () => {
         <div className="main_ai">
        <Header />
         <div className="ai_part_1">
-        {/* <img className="ai_giphy" src={Giphy} alt=""  /> */}
         </div>
-  
-              {/* <h2 className="gradient__text ai_quote_heading">
-        “The coming era of Artificial Intelligence will not be the era of war, but be the era of deep compassion, non-violence, and love.”
-<br />
-    -Amit Ray, Pioneer of Compassionate AI Movement. </h2>
-<div className="quotes_container">
-        <img className="ai_quotes" src={Quotes} alt="" />
-        </div> */}
-
         <div className="AI">
           <h1 id="Rendering" className="gradient__text ai_heading">INTRODUCTION TO ARTIFICIAL INTELLIGENCE</h1>
         <div className="ai_card_">

@@ -75,7 +75,7 @@ const Login = () => {
           <div className="Login">
             <Form onSubmit={handleSubmit}>
               <Form.Group size="lg" controlId="email">
-                <Form.Label className="username">Username or Email</Form.Label>
+                <Form.Label id="Rendering" className="username">Username or Email</Form.Label>
                 <Form.Control
                   autoFocus
                   type="email"
