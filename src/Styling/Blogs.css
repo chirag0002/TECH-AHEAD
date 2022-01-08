@@ -10,6 +10,10 @@
     margin-bottom: 5rem;
 }
 
+.blogs-head{
+    text-align:left;
+}
+
 .gpt3__blog-heading h1 {
     font-size: 62px;
     line-height: 75px;
