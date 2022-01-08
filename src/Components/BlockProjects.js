@@ -5,13 +5,7 @@ const BlockProjects = () => {
     return (
         <div>
             <div className="project_main">  
-                <h1 className="gradient__text"
-                    style={{
-                        display:"flex",
-                        justifyContent:"center",
-                        fontSize:"6vh",
-                    }}
-                >   
+                <h1 className="gradient__text project_main_heading">   
                     Few Projects To Build On Blockchain
                 </h1>
                 <div className="Project">
