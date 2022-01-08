@@ -19,7 +19,7 @@ const Header = () => (
           <a href="/devops"><h4 className="navbar_point">THIRD</h4></a>
         </navbar>
         <div className="log_sign">
-          <button className="log_btn" type="button">LOGIN IN</button>
+          <a href="/login"><button className="log_btn" type="button">LOGIN</button></a>
           <a href="#Rendering"> <button className="sign_btn" type="button">Get Started</button></a>
         </div>
       </div>
