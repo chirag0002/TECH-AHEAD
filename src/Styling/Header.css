@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
 .header{
     width:100%;
+    background-position: 1;
 }
 .header_video{
     width: 100vw;
@@ -11,7 +12,7 @@
     right: 0;
     top: 0;
     bottom: 0;
-    z-index: -1;
+    z-index: 1;
 }
 .header_content{
     display: flex;
@@ -19,6 +20,11 @@
     justify-content: space-between;
     margin:2vh;
     color:rgb(248, 239, 239);
+    z-index: 2;
+    position: relative;
+}
+.header_content h1{
+    color:rgb(233, 144, 72);
 }
 .navbar_items{
     display: flex;
@@ -57,6 +63,8 @@
     flex-direction: row;
     justify-content: space-between;
     margin-top:20vh;
+    z-index: 2;
+    position: relative;
 }
 .head_quote1{
     font-weight: 900;
@@ -97,4 +105,117 @@
     border:.6vh solid rgb(233, 144, 72);
     border-radius:10vh;
     box-shadow: 7vh 7vh 10vh;
+}
+@media (max-width : 990px){
+    .head_quote1 h1{
+        font-size: 4.5vh;
+    }
+    .head_quote2 h4{
+        font-size: 3vh;
+    }
+    .header_content h1{
+        font-size:4vh ;
+        width:100%;
+        margin:2%;
+        margin-top:2vh;
+    }
+    .header_content_heading{
+        width:20%;
+    }
+    .navbar_items{
+        width:40%;
+        margin:1vh auto;
+        padding-left:5vh;
+    }
+    .navbar_point{
+        margin:1vh;
+    }
+    .log_sign{
+        width:40%;
+        margin-left:7vh;
+    }
+    .log_btn, .sign_btn{
+        margin-right:1vh;
+        font-size: 2vh;
+    }        
+    
+}
+@media (max-width:780px){
+    .head_quote1{
+        width:70%;
+    }
+}
+@media (max-width:730px){
+    .head_quote1 h1{
+        font-size: 3.5vh;
+    }
+    .head_quote span{
+        font-size: 3.7vh;
+    }
+    .head_quote2 h4{
+        font-size: 2.5vh;
+    }
+    .head_quote2 span{
+        font-size: 2.8vh;
+    }
+    .navbar_point{
+        font-size:2.7vh;
+    }
+    .header_content_heading{
+        width:40%;
+    }
+    .header_content_heading h1{
+        font-size: 3vh;
+    }
+    .log_sign{
+        width:55%;
+        font-size: .6vh;
+        display: inline;
+    }
+    .sign_btn, .log_btn{
+        padding:.5vh;
+    }
+}
+@media(max-width:600px){
+    .log_sign{
+        display:flex;
+        flex-direction: column;
+        justify-content: right;
+        width:20%;
+    }
+    .sign_btn{
+        margin-top:2vh;
+        padding:.7vh;
+    }
+    .navbar_point{
+        font-size:2vh;
+        margin-top:2vh;
+    }
+    .header_content_heading{
+        width:25%;
+    }
+    .navbar_items{
+        width:20%;
+        margin:0;
+        padding:0;
+    }
+}
+@media(max-width:520px){
+    .navbar_items{
+        display:flex;
+        flex-direction: column;
+        width:10%;
+    }
+    .head_quote1 h1{
+        font-size: 2.7vh;
+    }
+    .head_quote h4{
+        font-size: 2vh;
+    }
+    .head_quote1 span{
+        font-size: 3vh;
+    }
+    .head_quote span{
+        font-size: 2.4vh;
+    }
 }

@@ -223,10 +223,24 @@ main#carousel {
   input:nth-of-type(5):checked ~ main#carousel {
     --position: 5;
   }
+  .s4{
+      display: flex;
+      justify-content: center;
+  }
+  .s4_blocksteps{
+      width:50%;
+      height: 200vh;
+      border: 2vh solid rgb(226, 217, 217);
+      box-shadow: 3vh 3vh 3vh rgb(146, 46, 141);
+      border-radius: 10vh;
+  }
   
   .s5 h1{
     display: flex;
     justify-content: center;
     margin:2vh;
     font-size: 6vh;
+  }
+  .s5{
+      margin-top:10vh;
   }

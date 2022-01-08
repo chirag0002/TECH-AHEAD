@@ -10,16 +10,17 @@ const Header = () => (
         <source src={Head} type="video/mp4" />
       </video>
       <div className="header_content">
-        <h1>LOGO</h1>
+        <div className="header_content_heading">
+        <a href="/"><h1>TECH-AHEAD</h1></a>
+      </div>
         <navbar className="navbar_items">
-          <h4 className="navbar_point">FIRST</h4>
-          <h4 className="navbar_point">SECOND</h4>
-          <h4 className="navbar_point">Third</h4>
-          <h4 className="navbar_point">Fourth</h4>
+          <a href="/blockchain"> <h4 className="navbar_point">FIRST</h4></a>
+          <a href="/ai"><h4 className="navbar_point">SECOND</h4></a>
+          <a href="/devops"><h4 className="navbar_point">THIRD</h4></a>
         </navbar>
         <div className="log_sign">
-          <button className="log_btn" type="button">LOG IN</button>
-          <button className="sign_btn" type="button">Get Started</button>
+          <button className="log_btn" type="button">SIGN IN</button>
+          <a href="#Rendering"> <button className="sign_btn" type="button">Get Started</button></a>
         </div>
       </div>
       <div className="header_sub_parts">
@@ -29,7 +30,6 @@ const Header = () => (
           </div>
           <div className="head_quote2">
             <h4>Technology is best when it brings people <span>TOGETHER</span>.</h4>
-            <button className="sign_btn" type="button"> GET STARTED </button>
           </div>
         </div>
         <div className="head_image">

@@ -14,12 +14,14 @@ import ChainAlysis from '../Images/ChainAlysis.png';
 import CoinMe from '../Images/CoinMe.png';
 import SpringLabs from '../Images/SpringLabs.png';
 import Republic from '../Images/Republic.png';
+import Blocksteps from '../Images/Blocksteps.png';
+
 
 const BlockChain = () => (
   <div className="Blockmain">
     <Header />
     <section className="s1">
-      <h1 className="gradient__text BlockC_heading">What Is BlockChain ?</h1>
+      <h1 id="Rendering" className="gradient__text BlockC_heading">What Is BlockChain ?</h1>
       <div
         style={{
           backgroundColor: '#fff',
@@ -130,6 +132,9 @@ const BlockChain = () => (
         <p>The purpose of the blockchain is to share information amongst all parties that access it via an application. Access to this ledger in terms of reading and writing may be unrestricted, or restricted.
         </p>
       </div>
+    </section>
+    <section className="s4">
+        <img src={Blocksteps} alt="" className="s4_blocksteps" />
     </section>
     <section className="s5">
       <h1 className="gradient__text">Top Companies In Blockchain</h1>
