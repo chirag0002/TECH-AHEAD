@@ -68,6 +68,9 @@ const Ai = () => {
      <Technology />
      <Uses />
      <Blogs />
+     <Project />
+     <Videos />
+
   
 
      </div>
