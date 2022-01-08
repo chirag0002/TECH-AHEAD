@@ -1,22 +1,23 @@
 import React from 'react';
 import '../../Styling/Ai.css';
-import Giphy from '../../Images/giphy.gif';
+// import Giphy from '../../Images/giphy.gif';
 import AI from '../../Images/ai.gif';
 // import Quotes from '../../Images/Quotes.jpg';
 // import Header from '../Header';
 import History from './History';
 import Technology from './Technologies';
-import Blogs from './Blogs';
-import Videos from './Videos';
+import Blogs from './Blogs'
+// import Videos from './Videos';
 import Uses from './Uses';
-import Project from './Projects';
+// import Project from './Projects';
+import Footer from '../Footer';
 
 const Ai = () => {
     return (
         <div className="main_ai">
         {/* <Header /> */}
         <div className="ai_part_1">
-        <img className="ai_giphy" src={Giphy} alt=""  />
+        {/* <img className="ai_giphy" src={Giphy} alt=""  /> */}
         </div>
   
               {/* <h2 className="gradient__text ai_quote_heading">
@@ -68,8 +69,8 @@ const Ai = () => {
      <Technology />
      <Uses />
      <Blogs />
-     <Project />
-     <Videos />
+     <Footer />
+     
 
   
 

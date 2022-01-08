@@ -7,13 +7,13 @@
     color: #000;
     text-align: center;
     font: 1.5rem Arial, sans-serif;
-    margin-top:3px;
+    margin-top:6px;
     margin-left:45%;
    
   }
   .main_technologies_card_1{
       width:50%;
-      height:50vh;
+      height:60vh;
       background:-moz-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
 
     /* safari 5.1+,chrome 10+ */
@@ -33,11 +33,12 @@
       margin-left: 10%;
       margin-top: 50px;
       border-radius:2px;
+
       
   }
   .main_technologies_card_5{
     width:50%;
-    height:50vh;
+    height:60vh;
     background:-moz-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
 
     /* safari 5.1+,chrome 10+ */
@@ -61,7 +62,7 @@
 }
 .main_technologies_card_2{
     width:50%;
-    height:50vh;
+    height:60vh;
     background:-moz-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
 
     /* safari 5.1+,chrome 10+ */
@@ -78,14 +79,14 @@
 
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     padding-top: 2px;
-    margin-left: 40%;
+    margin-left: 10%;
     margin-top: 50px;
     border-radius:2px;
     
 }
 .main_technologies_card_3{
     width:50%;
-    height:50vh;
+    height:60vh;
     background:-moz-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
 
     /* safari 5.1+,chrome 10+ */
@@ -109,7 +110,7 @@
 }
 .main_technologies_card_4{
     width:50%;
-    height:50vh;
+    height:60vh;
     background:-moz-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
 
     /* safari 5.1+,chrome 10+ */
@@ -126,8 +127,30 @@
 
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     padding-top: 2px;
-    margin-left: 40%;
+    margin-left: 10%;
     margin-top: 50px;
     border-radius:2px;
     
+}
+.ai_technologies_heading{
+    text-align: center;
+    margin-top:30px;
+}
+.ai_tech{
+    text-align:center;
+}
+.tech_para,.tech_ml,.tech_deep,.tech_natural,.tech_vision{
+    color:white;
+    margin-top:40px;
+}
+.tech_heading_1, .tech_heading_2,.tech_heading_3,.tech_heading_4,.tech_heading_5{
+    text-align:center;
+    
+  
+}
+.flex{
+    display:flex;
+}
+.tech_checking{
+    display:flex;
 }
