@@ -5,6 +5,16 @@
     height: 20vh;
     margin-left: 43%;
   background-color: whitesmoke;
+  gap:20px;
+  
+}
+.projects_card_2{
+    display :flex;
+    width:50%;
+    height: 20vh;
+    margin-left: 43%;
+  background-color: whitesmoke;
+  margin-top: 10px;
   
 }
 .projects_heading{
@@ -15,4 +25,40 @@
     margin-top: 70px;
     margin-left: 10%;
     width:30%;
+}
+.project_card_1{
+        margin-top: 70px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-gap: 3rem;
+    margin-bottom: 4%;
+    width:50%;
+    border-radius: 10px; background:-moz-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+    /* opera 11.10+ */
+    background:-o-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+    /* ie 10+ */
+    background:-ms-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+    /* global 92%+ browsers support */
+    background:radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+    height:auto;
+    margin-left:25%;
+}
+.project_content_para{
+    margin-top: 10px;
+    width:180%;
+    font-size:1rem;
+   color:white;
+    margin-left:90%;
+    text-align: justify;
+    text-justify: inter-word;
+}
+.project_heading{
+  margin-left: 90%;
+    width:180%;
 }
