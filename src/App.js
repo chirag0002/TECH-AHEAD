@@ -8,6 +8,8 @@ import Techs from './Components/Techs'
 
 const App = () => {
   return (
+    
+     
     <div className="App">
     <div className="gradient__bg">
       <Navbar />
@@ -20,8 +22,8 @@ const App = () => {
     <CTA />
     <Blog />
     <Footer /> */}
-  </div>
+ </div>
   )
-}
+};
 
 export default App
