@@ -1,0 +1,99 @@
+
+  .ai_pic{
+    width: 150px;
+    height:135px;
+    position: absolute;
+    margin-left: 79.8%;
+    margin-top: -34px;
+    border-radius: 5px;
+  }
+  .ai__text{
+  text-align: center;
+  font-family: "Abril Fatface",serif;
+  color: white;
+  width: 80%;
+  }
+  .ai___content{
+  text-align: center;
+  width: 290%;
+  }
+  .ai__text{
+    text-align: center;
+    width: 290%;
+  }
+  .ai_para{
+  /* font-weight: 800;
+  font-size: 1.5rem;
+  margin-top: 20px;
+  margin-left: 30%; */
+  color: #04003F;
+  text-align: center;
+  }
+  .ai_ques1,.ai_ques2,.ai_ques3{
+    font-size: 1.3rem;
+    font-weight: 400;
+    padding-top:2%;
+    
+    width:45%;
+    margin-left: 3%;
+  }
+  .ai_content1{
+    font-weight: 800;
+    font-size: 1.2rem;
+  display:flex;
+  width:45%;
+  margin-left: 3%;
+  }
+  .ai_content2,.ai_content3{
+    font-weight: 800;
+    font-size: 1rem;
+  display:flex;
+  width:45%;
+  margin-left: 5%;
+  }
+  .ai_li{
+    width:100%;
+  }
+  .ai_giphy{
+    width:100%;
+    height:60vh;
+  }
+  .ai_card_{
+    width: 80%;
+    height: 110vh;
+    border-radius: 5px;
+    background-color: white;
+    margin-left: 10%;
+    padding-top: 2%;
+    margin-top:30px;
+   
+  }
+  .ai_part_1{
+    margin-top:60px;
+  }
+  .ai_giphy_2{
+float:right;
+margin-top: 90px;
+  }
+  /* .giphy{
+    display: flex;
+  } */
+  
+  .ai_heading{
+  text-align: center;
+  }
+  .ai_quotes{
+    width: 250px;
+    height:40vh;
+    margin-top:30px;
+    margin-left: 10%;
+
+  }
+  .ai_quote_heading{
+    float:right;
+    width:70%;
+    margin-top:130px;
+}
+ .AI{
+   margin-top: 50px;
+ }

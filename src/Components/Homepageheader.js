@@ -1,6 +1,6 @@
 import React,{useState} from 'react';
 import HPopup from './HPopup'
-import ai from '../Images/giphy.gif';
+import ai from '../Images/Home_AI.gif';
 import '../Styling/Homepageheader.css';
 
 const Homepageheader = () =>{ 
