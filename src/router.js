@@ -2,6 +2,8 @@ import React from 'react';
 import { Route, ReactLocation } from 'react-location';
 import App from './App';
 import Blockchain from './Components/BlockChain';
+import Headder from './Components/Header';
+
 
 import Navbar from './Components/Navbar';
 // import Footer from './containers/footer/Footer';
@@ -16,6 +18,10 @@ export const routes: Route[] = [
   {
     path: '/blockchain',
     element: <Blockchain />,
+  },
+  {
+    path: '/headder',
+    element: <Headder />,
   },
   {
     path: 'nav',
