@@ -17,10 +17,24 @@ const Techs = () => (
       <Feature title="DevOps" text="DevOps is a set of practices that combines software development and IT operations. It aims to shorten the systems development life cycle and provide continuous delivery with high software quality." />
     </div>
     <div className="gpt3__whatgpt3-buttons">
-        
-        <a href="/blockchain"><button>Travel With Us</button></a>
-        <a href="/ai"><button>Travel With Us</button></a>
-        <button>Travel With Us</button>
+        <div className="gpt3__whatgpt3-p1">
+        <p>Click below to travel with us to Blockchain world</p>
+          <a href="/blockchain">
+          <button className="tech__buttons">Travel With Us</button>
+          </a>
+        </div>
+        <div className="gpt3__whatgpt3-p2">
+        <p>Click below to travel with us to AI world</p>
+         <a href="/ai">
+         <button className="tech__buttons">Travel With Us</button>
+         </a>
+        </div>
+        <div className="gpt3__whatgpt3-p3">
+        <p>Click below to travel with us to DevOps world</p>
+        <a href="/devops">
+        <button className="tech__buttons">Travel With Us</button>
+        </a>
+        </div>
     </div>
   </div>
 );

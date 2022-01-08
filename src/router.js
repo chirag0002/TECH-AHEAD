@@ -1,6 +1,7 @@
 import React from 'react';
 import { Route, ReactLocation } from 'react-location';
 import App from './App';
+import DevOps from './Components/DevOps/DevOps'
 import Blockchain from './Components/BlockChain';
 // import Footer from './containers/footer/Footer';
 import Ai from './Components/Artificial-Intelligence/Ai';
@@ -16,8 +17,12 @@ export const routes: Route[] = [
     element:<Ai />,
   },
   {
-    path: '/blockchain',
+    path: 'blockchain',
     element: <Blockchain />,
+  },
+  {
+    path: 'devops',
+    element: <DevOps />,
   },
   // {
   //   path: 'check',
