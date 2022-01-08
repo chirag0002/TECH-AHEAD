@@ -2,8 +2,9 @@ import React from 'react';
 import '../../Styling/Ai.css';
 import Giphy from '../../Images/giphy.gif';
 import AI from '../../Images/ai.gif';
-import Quotes from '../../Images/Quotes.jpg';
-import Header from '../Header';
+// import Quotes from '../../Images/Quotes.jpg';
+// import Header from '../Header';
+import History from './History';
 
 const Ai = () => {
     return (
@@ -58,7 +59,7 @@ const Ai = () => {
     
         </div>
      </div>
-     <div className="ai_history"></div>
+     <History />
      </div>
     )
 };

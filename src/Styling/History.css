@@ -1,0 +1,33 @@
+.history_ai_pic{
+  width:500px;
+  height: 450px;
+  margin-left: 58%;
+  margin-top: 50px;
+}
+.history_heading{
+    text-align: center;
+    margin-top: 50px;
+}
+.neural{
+    display: flex;
+}
+.history_card{
+    display: flex;
+    gap:130px;
+   
+}
+.history_starts{
+    margin-left: 20%;
+}
+
+.year_starts{
+    margin-left: 25%;
+    display:flex;
+    gap:48vh;
+}
+.history_para{
+    display:flex;
+}
+.history_links{
+    display:flex;
+}
