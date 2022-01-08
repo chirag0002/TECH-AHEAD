@@ -6,7 +6,7 @@ import Header from './Components/Homepageheader'
 const App = () => {
   return (
     
-      
+     
     <div className="App">
     <div className="gradient__bg">
       <Navbar />
@@ -19,8 +19,8 @@ const App = () => {
     <CTA />
     <Blog />
     <Footer /> */}
- 
+ </div>
   )
-}
+};
 
 export default App
