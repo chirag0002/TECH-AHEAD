@@ -1,21 +1,21 @@
 import React from 'react';
 import '../../Styling/Ai.css';
-// import Giphy from '../../Images/giphy.gif';
+
 import AI from '../../Images/ai.gif';
-// import Quotes from '../../Images/Quotes.jpg';
-import Header from '../Header';
+
 import History from './History';
 import Technology from './Technologies';
 import Blogs from './Blogs'
-// import Videos from './Videos';
+import Videos from './Videos';
 import Uses from './Uses';
-// import Project from './Projects';
+import Project from './Projects';
 import Footer from '../Footer';
+import Company from './Companies';
 
 const Ai = () => {
     return (
         <div className="main_ai">
-        <Header />
+      
         <div className="ai_part_1">
         {/* <img className="ai_giphy" src={Giphy} alt=""  /> */}
         </div>
@@ -68,6 +68,10 @@ const Ai = () => {
      <History />
      <Technology />
      <Uses />
+     <Project />
+     
+     <Company />
+     <Videos />
      <Blogs />
      <Footer />
      
