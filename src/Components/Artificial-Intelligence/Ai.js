@@ -3,7 +3,7 @@ import '../../Styling/Ai.css';
 
 import AI from '../../Images/ai.gif';
 // import Quotes from '../../Images/Quotes.jpg';
-import Header from '../Header';
+// import Header from '../Header';
 import History from './History';
 import Technology from './Technologies';
 import Blogs from './Blogs'
