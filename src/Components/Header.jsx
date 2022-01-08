@@ -14,9 +14,9 @@ const Header = () => (
         <a href="/"><h1 className="gradient__text">TECH-AHEAD</h1></a>
       </div>
         <navbar className="navbar_items gradient__text">
-          <a href="/blockchain"> <h4 className="navbar_point">FIRST</h4></a>
-          <a href="/ai"><h4 className="navbar_point">SECOND</h4></a>
-          <a href="/devops"><h4 className="navbar_point">THIRD</h4></a>
+          <a href="/blockchain"> <h4 className="navbar_point">Blockchain</h4></a>
+          <a href="/ai"><h4 className="navbar_point">AI</h4></a>
+          <a href="/devops"><h4 className="navbar_point">Dev Ops</h4></a>
         </navbar>
         <div className="log_sign">
           <a href="/login"><button className="log_btn" type="button">LOGIN</button></a>
