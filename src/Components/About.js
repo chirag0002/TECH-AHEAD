@@ -28,29 +28,29 @@ const About = () => {
             <p className="chirag_name">
             Chirag Varshney
            
-            <br /><Button href="https://www.linkedin.com/in/chirag-varshney-864917202" className="developers_buttons1" variant="outline-warning">LinkedIn</Button>{' '}
-            <br /><Button href="https://twitter.com/ChiragV0101?t=JttZTqzDXamIjso3JyfBPA&s=09" className="developers_buttons2" variant="outline-warning">Twitter</Button>{' '}
-            <br /><Button href="https://instagram.com/_chirag_varshney_?utm_medium=copy_link" className="developers_buttons3" variant="outline-warning">Instagram</Button>{' '}
-            <br /><Button href="https://github.com/chirag0002" className="developers_buttons4" variant="outline-warning">GitHub</Button>{' '}
+            <br /><Button target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/chirag-varshney-864917202" className="developers_buttons1" variant="outline-warning">LinkedIn</Button>{' '}
+            <br /><Button target="_blank" rel="noopener noreferrer" href="https://twitter.com/ChiragV0101?t=JttZTqzDXamIjso3JyfBPA&s=09" className="developers_buttons2" variant="outline-warning">Twitter</Button>{' '}
+            <br /><Button target="_blank" rel="noopener noreferrer" href="https://instagram.com/_chirag_varshney_?utm_medium=copy_link" className="developers_buttons3" variant="outline-warning">Instagram</Button>{' '}
+            <br /><Button target="_blank" rel="noopener noreferrer" href="https://github.com/chirag0002" className="developers_buttons4" variant="outline-warning">GitHub</Button>{' '}
             </p>
 
             <img className="aayush" src={aayush} alt="" />
             <p className="aayush_name">
             Aayush Sharma
             
-            <br /><Button href="https://www.linkedin.com/in/aayush-sharma-0555a4206/" className="developers_buttons1" variant="outline-warning">LinkedIn</Button>{' '}
-            <br /><Button href="https://twitter.com/AayushS45351191" className="developers_buttons2" variant="outline-warning">Twitter</Button>{' '}
-            <br /><Button href="https://www.instagram.com/aayusharma1401/" className="developers_buttons3" variant="outline-warning">Instagram</Button>{' '}
-            <br /><Button href="https://github.com/SuperAayush" className="developers_buttons4" variant="outline-warning">GitHub</Button>{' '}
+            <br /><Button target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/aayush-sharma-0555a4206/" className="developers_buttons1" variant="outline-warning">LinkedIn</Button>{' '}
+            <br /><Button target="_blank" rel="noopener noreferrer" href="https://twitter.com/AayushS45351191" className="developers_buttons2" variant="outline-warning">Twitter</Button>{' '}
+            <br /><Button target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/aayusharma1401/" className="developers_buttons3" variant="outline-warning">Instagram</Button>{' '}
+            <br /><Button target="_blank" rel="noopener noreferrer" href="https://github.com/SuperAayush" className="developers_buttons4" variant="outline-warning">GitHub</Button>{' '}
             </p>
             <img className="bhavya" src={bhavya} alt="" />
             <p className="bhavya_name">
             Bhavya Sachdeva
             
-            <br /><Button href="https://www.linkedin.com/in/bhavya-sachdeva9/" className="developers_buttons1" variant="outline-warning">LinkedIn</Button>{' '}
-            <br /><Button href="https://twitter.com/bhavya_58" className="developers_buttons2" variant="outline-warning">Twitter</Button>{' '}
-            <br /><Button href="https://www.instagram.com/bhavya_sachdeva__/" className="developers_buttons3" variant="outline-warning">Instagram</Button>{' '}
-            <br /><Button href="https://github.com/bhavyastar" className="developers_buttons4" variant="outline-warning">GitHub</Button>{' '}
+            <br /><Button target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/bhavya-sachdeva9/" className="developers_buttons1" variant="outline-warning">LinkedIn</Button>{' '}
+            <br /><Button target="_blank" rel="noopener noreferrer" href="https://twitter.com/bhavya_58" className="developers_buttons2" variant="outline-warning">Twitter</Button>{' '}
+            <br /><Button target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/bhavya_sachdeva__/" className="developers_buttons3" variant="outline-warning">Instagram</Button>{' '}
+            <br /><Button target="_blank" rel="noopener noreferrer" href="https://github.com/bhavyastar" className="developers_buttons4" variant="outline-warning">GitHub</Button>{' '}
             </p>
             </div>            
             </div>
