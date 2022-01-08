@@ -201,10 +201,10 @@ const HeroSection = () => {
           <SubText>
             DevOps is the combination of cultural philosophies, practices, and tools that increases an organization’s ability to deliver applications and services at high velocity: evolving and improving products at a faster pace than organizations using traditional software development and infrastructure management processes. This speed enables organizations to better serve their customers and compete more effectively in the market.
           </SubText>
-          <CTA>
+          <a target="_blank" rel="noopener noreferrer" href="https://opensource.com/article/20/2/devops-beginners#:~:text=In%20simple%20terms%2C%20DevOps%20is,with%20better%20communication%20and%20collaboration.&text=DevOps%20increases%20organizations'%20capability%20to,an%20application%20or%20a%20product."><CTA>
             Know More &nbsp;
             <img src={arrow} alt="cta" width="100" height="100" />
-          </CTA>
+          </CTA></a>
         </Lb>
 
         <MobileSvg
