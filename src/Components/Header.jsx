@@ -26,7 +26,7 @@ const Header = () => (
       <div className="header_sub_parts">
         <div className="head_quote">
           <div className="head_quote1">
-            <h1 className="head_quote1.1">You never change things by fighting the existing reality. To change something, build a new <span className="gradient__text">TECHNOLOGY</span> that makes the existing model obsolete.</h1>
+            <h1 className="head_quote11">You never change things by fighting the existing reality. To change something, build a new <span className="gradient__text">TECHNOLOGY</span> that makes the existing model obsolete.</h1>
           </div>
           <div className="head_quote2">
             <h4>Technology is best when it brings people <span className="gradient__text">TOGETHER</span>.</h4>
